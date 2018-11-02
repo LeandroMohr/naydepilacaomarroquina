@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="assets/img/marca-32.png">
+
+    <title>Nay Depilação Marroquina</title>
+
+    <!-- SLICK CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="mb-1">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Nay Depil</a>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active" data-toggle="tooltip" data-placement="bottom" title="Agende seu horário via Whatsapp">
+                        <a class="nav-link" href="http://api.whatsapp.com/send?1=pt_BR&phone=5541997886337" target="_blank">
+                            <img src="assets/img/rede-social/whatsapp-32.png" alt="Whatsapp">
+                            <span>Whatsapp</span>
+                        </a>
+                    </li>
+                    <li class="nav-item active" data-toggle="tooltip" data-placement="bottom" title="Agende seu horário via Beaty Date">
+                        <a class="nav-link" href="https://beautydate.com.br/nay-depilacao-marroquina/agendar/depilacao"
+                            target="_blank">
+                            <img src="assets/img/rede-social/beauty-date.png" width="32" height="32" alt="Beauty Date">
+                            <span>Beauty Date</span>
+                        </a>
+                    </li>
+                    <li class="nav-item active" data-toggle="tooltip" data-placement="bottom" title="Conheça nossa página do Facebook">
+                        <a class="nav-link" href="https://www.facebook.com/naydepilacaomarroquina" target="_blank">
+                            <img src="assets/img/rede-social/face-32.png" alt="Facebook">
+                            <span>Facebook</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main role="container bg-light">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="banner-promo" src="assets/img/banners/promocao.jpg" alt="Banner da promoção">
+                    <div class="container">
+                        <div class="carousel-caption text-right">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Marketing messaging and featurettes
+        ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+
+        <div class="container formulario mb-5" id="formulario">
+            <h3 class="text-center mb-3">Ganhe uma experiência incrível com a cera marroquina. Participe e comprove!</h3>
+            <!-- START THE FORM -->
+            <div class="row featurette">
+                <div class="col-md-5 mb-2">
+                    <img class="img-fluid" src="assets/img/500x500.png" alt="Banner Promoção">
+                </div>
+                <div class="col-md-7">
+                    <form class="lead" novalidate>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputName">Nome*</label>
+                                <input required type="text" pattern="[A-Za-z]+" maxlength="30" class="form-control" id="inputName"
+                                    placeholder="Nome" title="Informe seu primeiro nome">
+                                <div class="invalid-feedback">
+                                    Por favor, informe um Nome válido.
+                                </div>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputSobrenome">Sobrenome*</label>
+                                <input required type="text" pattern="[A-Za-z]+" maxlength="30" class="form-control" id="inputSobrenome"
+                                    placeholder="Sobrenome" title="Informe seu último nome">
+                                <div class="invalid-feedback">
+                                    Por favor, informe um Sobrenome válido.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail">Email</label>
+                            <input type="email" maxlength="200" class="form-control" id="inputEmail" placeholder="Email"
+                                title="Informe seu email">
+                            <div class="invalid-feedback">
+                                Por favor, informe um Email válido.
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputTelefone">Telefone*</label>
+                            <input required type="text" maxlength="15" class="form-control phone-mask" id="inputTelefone"
+                                placeholder="DDD + Telefone" title="Informe seu telefone">
+                            <div class="invalid-feedback">
+                                Por favor, informe um Telefone válido.
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="sexo" id="masculino" value="masculino"
+                                    title="Informe seu sexo">
+                                <label class="form-check-label" for="masculino">Masculino</label>
+                            </div>
+                            <div class="form-check form-check-inline mb-3">
+                                <input class="form-check-input" type="radio" name="sexo" id="feminino" value="option2"
+                                    title="Informe seu sexo" checked="">
+                                <label class="form-check-label" for="feminino">Feminino</label>
+                            </div>
+                            <button type="submit" class="btn btn-warning text-light">Enviar</button>
+                        </div>
+                        <small class="form-text text-muted">*Campos obrigatórios</small>
+                    </form>
+                </div>
+            </div>
+
+            <!-- /END THE FORM -->
+        </div><!-- /.container formulario -->
+
+        <div class="container extra mb-5" id="extra">
+            <div class="row featurette">
+                <div class="col-lg-6 mb-3">
+                    <h4>Descubra mais sobre a Cera Marroquina</h4>
+                    <iframe width="540" height="350" src="https://www.youtube.com/embed/uy-Cks7Z4DA" frameborder="0"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="col-lg-6 mb-3">
+                    <h4>Onde estamos?</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.2622684312287!2d-49.21063068551341!3d-25.39603013777003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce5f78b8ff6bb%3A0xcabc69eac0c43ab7!2sNay+Depila%C3%A7%C3%A3o+Marroquina!5e0!3m2!1sen!2sbr!4v1539057364696"
+                        width="540" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <!-- Three columns of text -->
+        <div class="container-fluid bg-warning mb-5" id="depoimento">
+            <div class="row depoimento p-3">
+                <div class="col-lg-4 text-center">
+                    <img class="rounded-circle mx-auto mb-1" src="assets/img/depoimento/Depoimento-1.jpg" alt="Imagem da"
+                        width="140" height="140">
+                    <h2>Paula Dondokas</h2>
+                    <p>
+                        A melhor de todas que já fiz!!! O atendimento da Nay é impecável até no inverno, com aquecedor
+                        e
+                        mantinhas pra ninguém desistir de ir no friozinho!!! Agora com as tatoos super fofas!!! Super
+                        recomendo!!!
+                    </p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4 text-center">
+                    <img class="rounded-circle mx-auto mb-1" src="assets/img/depoimento/Depoimento-3.jpg" alt="Imagem da"
+                        width="140" height="140">
+                    <h2>Francielle Alexandre</h2>
+                    <p>
+                        Ganhou uma cliente rsrs. Super recomendo, atendimento maravilhoso, depilação praticamente
+                        indolor e
+                        suave. Muito querida e atenciosa. Voltarei sempre!
+                    </p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4 text-center">
+                    <img class="rounded-circle mx-auto mb-1" src="assets/img/depoimento/Depoimento-2.jpg" alt="Imagem da"
+                        width="140" height="140">
+                    <h2>Gabriela Brandt</h2>
+                    <p>
+                        Ganhou uma cliente. Realmente tem mãos de fada, a depilação é praticamente indolor e a Nay
+                        ésuper
+                        querida. Amei.
+                    </p>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="container-fluid bg-dark text-light py-3">
+            <div class="row">
+                <div class="col-12 col-md text-center">
+                    <img class="img-fluid" src="assets/img/marca-antiga-900.png" width="100" height="150" alt="Cera Marroquina">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md text-center">
+                    <p>Endereço: R. Rio Pelotas, 351 - Bairro Alto, Curitiba - PR, 82840-380</p>
+                    <p>Telefone: (41) 9999-99999</p>
+                    <small class="d-block text-light">© 2017-2018</small>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/jquery.mask.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- SLICK JS -->
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
