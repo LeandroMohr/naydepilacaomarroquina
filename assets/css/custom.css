@@ -5,8 +5,13 @@
 	width: 100%;
 }
 body {
-	padding-top: 3rem;
+	margin-top: 3rem;
 	color: #5a5a5a;
+}
+@media (min-width: 40em) {
+	body{
+		margin-top: 4rem;
+	}
 }
 
 
@@ -93,6 +98,20 @@ body {
 
 /* CUSTOM
 -------------------------------------------------- */
+@media (max-width: 40rem){
+	.nav-item{
+		margin: 0.5rem;
+	}
+	
+	.nav-item:first-of-type{
+		margin-top: 1rem;
+	}
+
+	.tooltip{
+		display: none;
+	}
+}
+
 footer a{
 	color: #6c757d;
 }
